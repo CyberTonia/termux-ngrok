@@ -1,5 +1,5 @@
 # termux-ngrok
-O [ngrok](https://ngrok.com/) é um serviço que disponibiliza servidores por trás de redes NATs e Firewalls que realizam conexão publicas em túneis [documentação](https://ngrok.com/docs).
+O [ngrok](https://ngrok.com/) Ngrok is a service that provides servers behind NAT networks and firewalls that make public connections in documentation tunnels. [documentação](https://ngrok.com/docs).
 
 ###  NGROK for termux
 ```
@@ -25,4 +25,5 @@ chmod +x termux-ngrok.sh
 </p>
 
 
-
+### ...
+ All thanks to Marcel0Sousa...
