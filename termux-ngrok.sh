@@ -62,7 +62,7 @@ echo "Command example (ngrok http 3333)"
 
 n)
 clear
-echo "ngrok not installed :("
+echo "You wished, not to install ngrok. Hence, aborted :("
 echo
 esac
 
