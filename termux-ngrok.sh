@@ -54,6 +54,8 @@ echo "${k}██╔██╗ ██║██║  ███╗██████�
 echo "${k}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
 echo "${k}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
 echo "${k}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
+
+
 echo
 echo "Command example (ngrok http 3333)"
 ;;
@@ -62,7 +64,7 @@ n)
 clear
 echo "ngrok not installed :("
 echo
-esac
+GeAr
 
 
 
