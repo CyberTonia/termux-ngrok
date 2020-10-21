@@ -64,7 +64,7 @@ n)
 clear
 echo "ngrok not installed :("
 echo
-GeAr
+esac
 
 
 
