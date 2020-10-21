@@ -1,7 +1,7 @@
 #!/bin/dash
-# Desenvolvido por Tchelo Noob
-atualizar='\033[1;32m'
-echo "$atualizar Updating Repository..."
+# Developed by Cyber Tonian
+update='\033[1;32m'
+echo "$update Updating Repository..."
 apt update && upgrade -y
 apt install -y wget
 clear
@@ -19,7 +19,7 @@ echo "${k}░ ░    ░ ░     ░        ░  ░  ░                    ░
 echo "${k}░      ░ ░          ░                                                                   
 echo "${k} /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/";
 echo
-echo "Deseja instalar o Ngrok? [Y/n]"
+echo "Do You Want To Install Ngrok [Y/n]"
 read opcao
 case $opcao in
 y)
@@ -39,7 +39,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo "Arquitetura desconhecida"
+    echo "Unknown Architecture"
 esac
 
 wget "https://github.com/tchelospy/NgrokTest/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
@@ -55,12 +55,12 @@ echo "${k}██║╚██╗██║██║   ██║██╔══█�
 echo "${k}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
 echo "${k}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
 echo
-echo "Exemplo de comando (ngrok http 80\nOu ngrok para ajuda)"
+echo "Command example (ngrok http 3333)"
 ;;
 
 n)
 clear
-echo "Ngrok não instalado :("
+echo "ngrok not installed :("
 echo
 esac
 
