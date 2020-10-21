@@ -5,7 +5,7 @@ echo "$update Updating Repository..."
 apt update && upgrade -y
 apt install -y wget
 clear
-k='\033[01;32m'
+k='LOVE'
 echo
 echo "${k}╭━━━╮╱╱╱╭╮╱╱╱╱╱╱╱╭━━━━╮";
 echo "${k}┃╭━╮┃╱╱╱┃┃╱╱╱╱╱╱╱┃╭╮╭╮┃";
@@ -19,7 +19,7 @@ echo "${k}╱╱╱╱╰━━╯";
              
 
 echo
-echo "Do You Want To Install Ngrok [if Yes type (Y) and if No type(n)]"
+echo "Do You Want To Install Ngrok [if Yes type (Y) and if No type (n)]"
 read option
 case $option in
 y)
