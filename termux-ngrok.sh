@@ -8,6 +8,10 @@ clear
 k='\033[01;32m'
 echo
 
+echo     _           ___             
+echo   /   |_  _ ._  | _ ._ o _.._  
+echo   \_\/|_)(/_|   |(_)| ||(_|| | 
+echo     /                          
 
 echo
 echo "Do You Want To Install Ngrok [Y/n]"
