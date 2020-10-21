@@ -20,8 +20,8 @@ echo "${k}░      ░ ░          ░
 echo "${k} /_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/";
 echo
 echo "Do You Want To Install Ngrok [Y/n]"
-read opcao
-case $opcao in
+read option
+case $option in
 y)
 echo
 echo "Downloading Termux-ngrok..."
